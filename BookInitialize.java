@@ -19,9 +19,11 @@ class BookInitialize
 		System.out.println("Enter your choice: ");
 		choice = sc1.nextInt();
 		
-		if(choice==6)
-		
-		break;
+			if(choice==6)
+			{
+				System.out.println(" Thank you for using the Library System");
+				break;
+			}
 			
 			switch(choice)
 			{
@@ -44,11 +46,9 @@ class BookInitialize
 				case 5: 
 				bk.returnBook();
 				break;
-				
-				
-				
+
 				default: 
-				System.out.println("Wrong Choice :-) ");
+				System.out.println("Sorry Wrong Choice :-) ");
 			}
 		}
 	}	
